@@ -35,3 +35,22 @@ header, footer{
     background-color: var(--branco)!important;
     color: var(--rosa)!important;
 }
+
+#formulario, #formSection img{
+    width: 50%;
+    justify-content: space-around;
+}
+
+#formulario button{
+    background-color: var(--azul);
+    border: none;
+}
+
+#formulario button:hover{
+    background-color: #006e9d;
+}
+
+#formulario button:active{
+    background-color: var(--branco);
+    color: var(--azul);
+}
