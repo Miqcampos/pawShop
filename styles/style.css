@@ -1,9 +1,9 @@
 :root{
-    --azul: #4ba6ce;
+    --azul: #40a3ce;
     --verde: #4cd112;
     --rosa: #F7B6D2;
     --laranja: #F4A623;
-    --preto: #313131;
+    --preto: #444444;
     --branco: #FFFFFF;
 }
 
@@ -36,21 +36,6 @@ header, footer{
     color: var(--rosa)!important;
 }
 
-#formulario, #formSection img{
-    width: 50%;
-    justify-content: space-around;
-}
-
-#formulario button{
-    background-color: var(--azul);
-    border: none;
-}
-
-#formulario button:hover{
-    background-color: #006e9d;
-}
-
-#formulario button:active{
-    background-color: var(--branco);
-    color: var(--azul);
+form input{
+    border: 1px solid var(--preto)!important;
 }
